@@ -1,0 +1,71 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about {
+    font-size: 18 px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    /*ถ้ากำหนด 4 เลขจะเรียงตามเข็มนาฬิกา padding: 8px 12px 20px 24px; */
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.container {
+    background-image:url('https://images.unsplash.com/photo-1680199567944-569c95e4edf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+    
+
+.content {
+    max-width: 500px;
+}
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      font-size: 36px;
+    }
+  }
+
+/* เรียงลำดับตามตัวอักษรเพื่อให้ง่ายในการหา*/
